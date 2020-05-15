@@ -8,7 +8,7 @@ jobs:
     environment:
       STAGE: one
     executor: machine
-    parallelism: 3
+    parallelism: 2
     steps:
       - checkout
       - run:
